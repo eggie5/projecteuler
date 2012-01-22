@@ -42,7 +42,7 @@ end
 
 p=sieve(10_04190)
 p.each_with_index do |b, i|
-  #p "p[#{i}]=#{b}"
+  p "p[#{i}]=#{b}"
 end
 
 pn= p[10_000]
